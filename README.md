@@ -18,7 +18,7 @@ Here are the main points to getting Bugfender working on your apps:
 <script>!function (e) { var a; e.Bugfender = e.Bugfender || (a = { appKey: "<YOUR_APP_KEY_HERE>", q: [] }, ["log", "warn", "error", "trace", "info", "fatal", "removeDeviceKey", "sendLog", "sendIssueMarkdown", "sendIssue", "sendCrash", "sendUserFeedback", "setDeviceKey"].forEach(function (o) { a[o] = function () { for (var e = [], r = 0; r < arguments.length; r++)e[r] = arguments[r]; var n = function () { try { throw new Error } catch (e) { return e } }(); a.q.push([o, n, Array.prototype.slice.call(e, 0)]) } }), a) }(window);</script>
 <script>
     Bugfender.options = {
-        // overrideConsole: true,
+        overrideConsole: true,  //Send all console messages to Bugfender
         version: '0.0.1',
         build: '1',
     };
