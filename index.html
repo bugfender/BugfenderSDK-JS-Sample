@@ -17,18 +17,6 @@
 
 <body>
 
-	<script>!function (e) { var a; e.Bugfender = e.Bugfender || (a = { appKey: "<YOUR_APP_KEY_HERE>", q: [] }, ["log", "warn", "error", "trace", "info", "fatal", "removeDeviceKey", "sendLog", "sendIssueMarkdown", "sendIssue", "sendCrash", "sendUserFeedback", "setDeviceKey"].forEach(function (o) { a[o] = function () { for (var e = [], r = 0; r < arguments.length; r++)e[r] = arguments[r]; var n = function () { try { throw new Error } catch (e) { return e } }(); a.q.push([o, n, Array.prototype.slice.call(e, 0)]) } }), a) }(window);</script>
-	<script>
-		Bugfender.options = {
-			// apiURL: 'https://api.bugfender.com',
-			// frontendURL: 'https://dashboard.bugfender.com',
-			// overrideConsole: true,
-			version: '0.0.1',
-			build: '123',
-		};
-	</script>
-	<script async src="https://js.bugfender.com/bugfender.js"></script>
-
 	<div class="container is-fluid">
 		<h1 class="title">Bugfender Note App</h1>
 		<p class="is-size-6">This is an example on how to use Bugfender SDK in a web using vanilla Javascript.</p>
@@ -48,7 +36,8 @@
 		</div>
 	</div>
 
-	<script src="js/main.js"></script>
+	<script defer src="https://js.bugfender.com/bugfender.js"></script>
+	<script defer src="js/main.js"></script>
 </body>
 
 </html>
