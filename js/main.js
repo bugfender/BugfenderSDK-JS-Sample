@@ -8,7 +8,7 @@ var arrPos;
 var update;
 
 Bugfender.init({
-	appKey: '1EJdilMFdmx1sdr5RMcdOzdDnDCcm9jd',
+	appKey: '<YOUR_APP_KEY_HERE>',
 	// apiURL: 'https://api.bugfender.com',
 	// frontendURL: 'https://dashboard.bugfender.com',
 	// overrideConsoleMethods: true,
