@@ -10,7 +10,7 @@ var update;
 Bugfender.init({
 	appKey: '<YOUR_APP_KEY_HERE>',
 	// apiURL: 'https://api.bugfender.com',
-	// frontendURL: 'https://dashboard.bugfender.com',
+	// baseURL: 'https://dashboard.bugfender.com',
 	// overrideConsoleMethods: true,
 	// printToConsole: true,
 	// registerErrorHandler: true,
