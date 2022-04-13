@@ -14,6 +14,7 @@ Bugfender.init({
 	// overrideConsoleMethods: true,
 	// printToConsole: true,
 	// registerErrorHandler: true,
+	deviceName: 'Bugfender Vanilla JS Example',
 	version: '0.0.1',
 	build: '123',
 });
