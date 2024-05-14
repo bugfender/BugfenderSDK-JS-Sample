@@ -6,9 +6,19 @@ Bugfender is a game-changing platform that logs every detail your users experien
 
 This repository contains a sample application written in HTML and vanilla JavaScript and using Bugfender SDK to collect user logs.
 
-If you plan to use Bugfender SDK on an **Angular app**, visit https://github.com/bugfender/BugfenderSDK-Angular-Sample
+If you plan to use Bugfender SDK with a JavaScript framework, check the following documentation:
 
-### SDK Installation
+- [Angular](https://docs.bugfender.com/docs/platforms/web-apps/bugfender-for-angular/): Bugfender SDK for Angular
+- [React](https://docs.bugfender.com/docs/platforms/web-apps/bugfender-for-react/): Bugfender SDK for React
+- [Vue](https://docs.bugfender.com/docs/platforms/web-apps/bugfender-for-vue/): Bugfender SDK for Vue
+- [Svelte](https://docs.bugfender.com/docs/platforms/web-apps/bugfender-for-svelte/): Bugfender SDK for Svelte
+
+## Links
+
+- [Official JavaScript SDK Docs](https://docs.bugfender.com/docs/platforms/web-apps/bugfender-for-javascript-on-browsers/)
+- [Bugfender JS SDK reference documentation](https://js.bugfender.com/)
+
+## Quick Start Guide
 
 Here are the main points to getting Bugfender working on your apps:
 
@@ -42,21 +52,3 @@ Bugfender.log('Hello world!');
 ```
 
 Remember to change `<YOUR_APP_KEY_HERE>` with the app key of your app and also your version & build numbers.
-
-### Using Bugfender
-
-After you have initialized the SDK, you can start using it:
-
-```javascript
-Bugfender.log('This is a log');
-```
-
-## More information
-
-### Docs
-
-For more information on all methods available, please go to the [Bugfender JS SDK reference documentation](https://js.bugfender.com/).
-
-### SDK status
-
-The SDK is suitable for production. Please feel free to open an issue or contact us at [bugfender.com](https://bugfender.com) .
